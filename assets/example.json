@@ -1,0 +1,334 @@
+{
+  "info_empresa": {
+    "icon_nav": [{
+        "url": "icon/cart_500.svg",
+        "class": "",
+        "router": "",
+        "cont": true,
+        "subMEnu": [{
+          "title": "title",
+          "router": "cart"
+        }],
+        "clase": "nav-item"
+      },
+      {
+        "url": "icon/user_500.svg",
+        "class": "",
+        "router": "",
+        "cont": false,
+        "subMEnu": [{
+            "title": "soy nuevo",
+            "router": "register"
+          },
+          {
+            "title": "login",
+            "router": "login"
+          }
+        ],
+        "clase": "nav-item d-none d-sm-none d-md-block"
+      }
+
+    ],
+    "logo": {
+      "small": "logo/small.ico",
+      "medium": "logo/medium.png",
+      "big": "logo/"
+    }
+  },
+  "carrucel": [{
+      "url_mobil": "principal/BANNER-MOVIL-2.jpg",
+      "url": "principal/BANNER-2.jpg",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    },
+    {
+      "url_mobil": "principal/BANNER-MOVIL.jpg",
+      "url": "principal/BANNER-1.jpg",
+      "detalle": {
+        "type": "categoria",
+        "codigo": "101"
+      }
+    }
+  ],
+  "descuento": [{
+      "url": "principal/Cards/comedor_01.jpg",
+      "type": "",
+      "codigo": ""
+    },
+    {
+      "url": "principal/Cards/sala_03.jpg",
+      "type": "",
+      "codigo": ""
+    },
+    {
+      "url": "principal/Cards/home-officce_02.jpg",
+      "type": "",
+      "codigo": ""
+    },
+    {
+      "url": "principal/Cards/dormitorio_04.jpg",
+      "type": "",
+      "codigo": ""
+    }
+  ],
+  "banner_info": [{
+    "url": "principal/banner_info/Rompesecuencia.jpg",
+    "detalle": {
+      "type": "producto",
+      "codigo": "1132001"
+    }
+  }],
+  "session_category": [{
+      "url": "principal/Cards/comedor_01.jpg",
+      "title": "Comedor",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    },
+    {
+      "url": "principal/Cards/sala_03.jpg",
+      "title": "Sala",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    },
+    {
+      "url": "principal/Cards/home-officce_02.jpg",
+      "title": "Home Office",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    },
+    {
+      "url": "principal/Cards/dormitorio_04.jpg",
+      "title": "Juego de dormitorio",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    }
+  ],
+  "novedades": [{
+      "url": "principal/Cards/Tarjetas-de-descuentos_1.jpg",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    },
+    {
+      "url": "principal/Cards/Tarjetas-de-descuentos_1.jpg",
+      "detalle": {
+        "type": "producto",
+        "codigo": "1132001"
+      }
+    }
+  ],
+  "barra_redSocial": {
+    "redSocial": [{
+      "icon": "fab fa-instagram dark-text",
+      "position": 1
+    }, {
+      "icon": "fab fa-facebook-f dark-text",
+      "position": 2
+    }, {
+      "icon": "fab fa-twitter dark-text",
+      "position": 3
+    }],
+    "title": "Newsletter",
+    "btn_title": "Subcribete"
+  },
+  "pie_pagina": [{
+      "title": "NOSOTROS",
+      "content": [],
+      "text": "Encuentra soluciones practicas e innovadoras a las necesidades de tu hogar."
+    },
+    {
+      "title": "PRODUCTOS",
+      "text": "",
+      "content": [{
+          "icon": "",
+          "title": "Salas",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "",
+          "title": "Comedores",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "",
+          "title": "Dormitorio",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "",
+          "title": "Home Office",
+          "type": "categoria",
+          "codigo": "101"
+        }
+
+      ]
+    },
+    {
+      "title": "GARANTÍAS",
+      "text": "",
+      "content": [{
+          "icon": "",
+          "title": "Solicitud de pqr",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "",
+          "title": "Politicas de servicio",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "",
+          "title": "Cuidado del mueble",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "",
+          "title": "Ayuda",
+          "type": "categoria",
+          "codigo": "101"
+        }
+
+      ]
+    },
+    {
+      "title": "CONTÁCTO",
+      "text": "",
+      "content": [{
+          "icon": "fas fa-home mr-3",
+          "title": "Oficinas Barranquilla / Atlántico",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "fas fa-envelope mr-3",
+          "title": "ventas@muebleros.com.co",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "fas fa-phone mr-3",
+          "title": "+57 300457523",
+          "type": "categoria",
+          "codigo": "101"
+        },
+        {
+          "icon": "fas fa-print mr-3",
+          "title": "+57 365907054",
+          "type": "categoria",
+          "codigo": "101"
+        }
+
+      ]
+    }
+  ],
+  "article": [{
+      
+      "position": 1,
+      "active": "carousel-item active",
+      "children": [
+        {
+          "img": "principal/Cards/Tarjetas-de-descuentos_1.jpg",
+          "title": "Dell 786i",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/dormitorio_04.jpg",
+          "title": "Samsung V54",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/home-officce.jpg",
+          "title": "Headphones",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "active": "carousel-item",
+      "children": [
+        {
+          "img": "principal/Cards/home-officce_02.jpg",
+          "title": "Asus CT-567",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/sala-1.jpg",
+          "title": "Samsung 786i",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/sala_03.jpg",
+          "title": "Canon 675-D",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        }
+      ]
+
+    },
+    {
+      "position": 3,
+      "active": "carousel-item",
+      "children": [
+        {
+          "img": "principal/Cards/home-officce.jpg",
+          "title": "Asus CT-567",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/Tarjetas-de-descuentos_1.jpg",
+          "title": "Samsung 786i",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/dormitorio_04.jpg",
+          "title": "Canon 675-D",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        }
+      ]
+    }
+  ]
+}
