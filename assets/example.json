@@ -7,8 +7,30 @@
         "cont": true,
         "subMEnu": [{
           "title": "title",
-          "router": "cart"
-        }],
+          "router": "cart",
+          "price": "15000",
+          "img": "cart/4.jpg",
+          "category": "sofa",
+          "cantidad": "1"
+        },
+        {
+          "title": "title",
+          "router": "cart",
+          "price": "15000",
+          "img": "cart/4.jpg",
+          "category": "sofa",
+          "cantidad": "1"
+        },
+        {
+          "title": "title",
+          "router": "cart",
+          "price": "15000",
+          "img": "cart/4.jpg",
+          "category": "sofa",
+          "cantidad": "1"
+        }
+        
+        ],
         "clase": "nav-item"
       },
       {
