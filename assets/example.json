@@ -11,7 +11,7 @@
           "price": "15000",
           "img": "cart/4.jpg",
           "category": "sofa",
-          "cantidad": "1"
+          "cantidad": "2"
         },
         {
           "title": "title",
@@ -25,6 +25,22 @@
           "title": "title",
           "router": "cart",
           "price": "15000",
+          "img": "cart/4.jpg",
+          "category": "sofa",
+          "cantidad": "1"
+        },
+        {
+          "title": "asdadasdasd",
+          "router": "cart",
+          "price": "15000",
+          "img": "cart/4.jpg",
+          "category": "sofa",
+          "cantidad": "1"
+        },
+        {
+          "title": "cama",
+          "router": "cart",
+          "price": "123233",
           "img": "cart/4.jpg",
           "category": "sofa",
           "cantidad": "1"
@@ -288,6 +304,14 @@
           "presio": "",
           "_class":"col-md-4 clearfix d-none d-md-block mb-4",
           "icone": ""
+        },
+        {
+          "img": "principal/Cards/home-officce.jpg",
+          "title": "Headphones",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
         }
       ]
     },
@@ -318,7 +342,16 @@
           "presio": "",
           "_class":"col-md-4 clearfix d-none d-md-block mb-4",
           "icone": ""
+        },
+        {
+          "img": "principal/Cards/sala_03.jpg",
+          "title": "Canon 675-D",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
         }
+        
       ]
 
     },
@@ -344,6 +377,14 @@
         },
         {
           "img": "principal/Cards/dormitorio_04.jpg",
+          "title": "Canon 675-D",
+          "status": "active",
+          "presio": "",
+          "_class":"col-md-4 clearfix d-none d-md-block mb-4",
+          "icone": ""
+        },
+        {
+          "img": "principal/Cards/sala_03.jpg",
           "title": "Canon 675-D",
           "status": "active",
           "presio": "",
