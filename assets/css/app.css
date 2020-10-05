@@ -5883,12 +5883,6 @@
 }
 
 
-
-
-
-@charset "UTF-8";
-
-
 .hoverable,
 .hoverable:hover {
   transition: all .55s ease-in-out
@@ -7378,19 +7372,7 @@
   background-color: #fff !important
 }
 
-.dropdown .dropdown-menu .dropdown-item:active,
-.dropdown .dropdown-menu .dropdown-item:hover,
-.dropleft .dropdown-menu .dropdown-item:active,
-.dropleft .dropdown-menu .dropdown-item:hover,
-.dropright .dropdown-menu .dropdown-item:active,
-.dropright .dropdown-menu .dropdown-item:hover,
-.dropup .dropdown-menu .dropdown-item:active,
-.dropup .dropdown-menu .dropdown-item:hover,
-.side-nav,
-.side-nav .search-form .form-control,
-.white-text {
-  color: #fff !important
-}
+
 
 .rgba-white-slight,
 .rgba-white-slight:after {
@@ -7566,9 +7548,7 @@ a:hover {
   box-shadow: none !important
 }
 
-.z-depth-1 {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important
-}
+
 
 .z-depth-1-half {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15) !important
@@ -7596,9 +7576,6 @@ a {
   cursor: pointer
 }
 
-a:hover {
-  color: #333333
-}
 
 a.disabled:hover,
 a:disabled:hover {
@@ -7863,40 +7840,6 @@ button.bg-light:hover {
   flex: 1
 }
 
-@font-face {
-  font-family: Roboto;
-  font-weight: 200;
-  src: local(Roboto Thin), url(../font/roboto/Roboto-Thin.eot);
-  src: url(../font/roboto/Roboto-Thin.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Thin.woff2) format("woff2"), url(../font/roboto/Roboto-Thin.woff) format("woff"), url(../font/roboto/Roboto-Thin.ttf) format("truetype")
-}
-
-@font-face {
-  font-family: Roboto;
-  font-weight: 300;
-  src: local(Roboto Light), url(../font/roboto/Roboto-Light.eot);
-  src: url(../font/roboto/Roboto-Light.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Light.woff2) format("woff2"), url(../font/roboto/Roboto-Light.woff) format("woff"), url(../font/roboto/Roboto-Light.ttf) format("truetype")
-}
-
-@font-face {
-  font-family: Roboto;
-  font-weight: 400;
-  src: local(Roboto Regular), url(../font/roboto/Roboto-Regular.eot);
-  src: url(../font/roboto/Roboto-Regular.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Regular.woff2) format("woff2"), url(../font/roboto/Roboto-Regular.woff) format("woff"), url(../font/roboto/Roboto-Regular.ttf) format("truetype")
-}
-
-@font-face {
-  font-family: Roboto;
-  font-weight: 500;
-  src: url(../font/roboto/Roboto-Medium.eot);
-  src: url(../font/roboto/Roboto-Medium.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Medium.woff2) format("woff2"), url(../font/roboto/Roboto-Medium.woff) format("woff"), url(../font/roboto/Roboto-Medium.ttf) format("truetype")
-}
-
-@font-face {
-  font-family: Roboto;
-  font-weight: 700;
-  src: url(../font/roboto/Roboto-Bold.eot);
-  src: url(../font/roboto/Roboto-Bold.eot?#iefix) format("embedded-opentype"), url(../font/roboto/Roboto-Bold.woff2) format("woff2"), url(../font/roboto/Roboto-Bold.woff) format("woff"), url(../font/roboto/Roboto-Bold.ttf) format("truetype")
-}
 
 
 
@@ -8104,41 +8047,6 @@ a.text-light:hover {
   transform: scale(1.1)
 }
 
-.pattern-1 {
-  background: url(../img/overlays/01.png) fixed
-}
-
-.pattern-2 {
-  background: url(../img/overlays/02.png) fixed
-}
-
-.pattern-3 {
-  background: url(../img/overlays/03.png) fixed
-}
-
-.pattern-4 {
-  background: url(../img/overlays/04.png) fixed
-}
-
-.pattern-5 {
-  background: url(../img/overlays/05.png) fixed
-}
-
-.pattern-6 {
-  background: url(../img/overlays/06.png) fixed
-}
-
-.pattern-7 {
-  background: url(../img/overlays/07.png) fixed
-}
-
-.pattern-8 {
-  background: url(../img/overlays/08.png) fixed
-}
-
-.pattern-9 {
-  background: url(../img/overlays/09.png) fixed
-}
 
 /*!
  * Waves v0.7.6
@@ -11517,7 +11425,7 @@ table.table a.btn.btn-black {
 .card {
   font-weight: 400;
   border: 0;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+  /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)*/
 }
 
 .card[class*=border] {
@@ -11525,10 +11433,7 @@ table.table a.btn.btn-black {
   box-shadow: none
 }
 
-.navbar,
-.pagination .page-item.active .page-link {
-  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) */
-}
+
 
 .card .card-body h1,
 .card .card-body h2,
@@ -11604,12 +11509,12 @@ table.table a.btn.btn-black {
 }
 
 
-.navbar .dropdown-menu {
+.navbar .dropdown-menu1 {
   position: absolute !important;
   margin-top: 0
 }
 
-.navbar .dropdown-menu a {
+.navbar .dropdown-menu1 a {
   padding: 10px;
   font-size: .9375rem;
   font-weight: 300;
@@ -11705,11 +11610,7 @@ table.table a.btn.btn-black {
   text-decoration: underline;
 }
 
-/* Barra de navegacion megamenu active */
-.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link,
-.navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
-  /* background-color: rgba(255, 255, 255, .3) */
-}
+
 
 .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link:hover,
 .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link:hover,
@@ -16449,7 +16350,7 @@ table.table a.btn.btn-whatsapp {
 .pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-  background: url(../img/lightbox/default-skin.png) no-repeat;
+  /*background: url(../img/lightbox/default-skin.png) no-repeat;*/
   background-size: 264px 88px;
   width: 44px;
   height: 44px
@@ -16460,11 +16361,6 @@ table.table a.btn.btn-whatsapp {
 (min-resolution:105dpi),
 (min-resolution:1.1dppx) {
 
-  .pswp--svg .pswp__button,
-  .pswp--svg .pswp__button--arrow--left:before,
-  .pswp--svg .pswp__button--arrow--right:before {
-    background-image: url(../img/lightbox/default-skin.svg)
-  }
 
   .pswp--svg .pswp__button--arrow--left,
   .pswp--svg .pswp__button--arrow--right {
@@ -16734,10 +16630,6 @@ a.pswp__share--download:hover {
   margin: 12px
 }
 
-.pswp__preloader--active .pswp__preloader__icn {
-  background: url(../img/lightbox/preloader.gif) no-repeat
-}
-
 .pswp--css_animation .pswp__preloader--active .pswp__preloader__icn {
   -webkit-animation: clockwise .5s linear infinite;
   animation: clockwise .5s linear infinite
@@ -16784,7 +16676,7 @@ a.pswp__share--download:hover {
 #sidenav-overlay,
 .pswp__caption,
 .pswp__top-bar {
-  background-color: rgba(0, 0, 0, .5)
+  background-color: rgb(44 42 42 / 86%);
 }
 
 @media screen and (max-width:1024px) {
@@ -18390,13 +18282,6 @@ select:disabled {
 }
 
 /* Barra de navegacion */
-.side-nav a {
-  display: block;
-  height: 56px;
-  /* padding-left: 20px; */
-  font-size: 1rem;
-  line-height: 56px
-}
 
 .side-nav .fa-angle-down.rotate-icon {
   position: absolute;
@@ -19826,15 +19711,7 @@ ul.stepper li.completed a .white-skin .circle {
   background-image: linear-gradient(to bottom, #3a3a3a, #3a3a3a), linear-gradient(to bottom, #ced4da, #ced4da)
 }
 
-/* border bottom de la barra de busqueda */
-.white-skin input[type=password]:focus:not([readonly]),
-.white-skin input[type=email]:focus:not([readonly]),
-.white-skin input[type=number]:focus:not([readonly]),
-.white-skin input[type=text]:focus:not([readonly]),
-.white-skin textarea.md-textarea:focus:not([readonly]) {
-  /* border-color: #3a3a3a;
-    box-shadow: 0 1px 0 0 #3a3a3a */
-}
+
 
 .white-skin input[type=checkbox]:checked+label:before {
   border-right: 2px solid #3a3a3a;
@@ -24864,9 +24741,11 @@ input[type=range].no-border {
 }
 
 .nav-link.active {
-  background-color: rgba(163, 163, 163, .2)
+       background-color: rgb(58 58 58 / 0%) !important;
+    /* font-size: 17px; */
+    font-weight: 700 !important;
+    text-decoration: solid !important;
 }
-
 
 
 .divider {
@@ -25011,7 +24890,7 @@ input[type=range].no-border {
 .white-skin .side-nav .search-form input[type=text] {
   color: #424242 !important
 }
-
+/*
 @font-face {
   font-family: 'Helvetica Neue';
   src: local('Helvetica Neue'),
@@ -25022,13 +24901,13 @@ input[type=range].no-border {
   unicode-range: "U+0-10FFFF";
 }
 
+*/
 
 
 
 
 
-
-
+/*
 
 
 @font-face {
@@ -25118,7 +24997,7 @@ input[type=range].no-border {
   font-strecht: condensed;
   unicode-range: "U+0-10FFFF";
 }
-
+*/
 
 .header-search-form {
 	width: 100%;
@@ -25178,6 +25057,6 @@ input[type=range].no-border {
     text-align: center;
     white-space: nowrap;
     background-color: #e9ecef;
-    border-r: 1px solid #ced4da;
+    border-radius: 1px solid #ced4da;
     /* border-radius: .25rem; */
 }

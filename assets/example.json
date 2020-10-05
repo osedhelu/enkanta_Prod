@@ -5,47 +5,7 @@
         "class": "",
         "router": "",
         "cont": true,
-        "subMEnu": [{
-          "title": "title",
-          "router": "cart",
-          "price": "15000",
-          "img": "cart/4.jpg",
-          "category": "sofa",
-          "cantidad": "2"
-        },
-        {
-          "title": "title",
-          "router": "cart",
-          "price": "15000",
-          "img": "cart/4.jpg",
-          "category": "sofa",
-          "cantidad": "1"
-        },
-        {
-          "title": "title",
-          "router": "cart",
-          "price": "15000",
-          "img": "cart/4.jpg",
-          "category": "sofa",
-          "cantidad": "1"
-        },
-        {
-          "title": "asdadasdasd",
-          "router": "cart",
-          "price": "15000",
-          "img": "cart/4.jpg",
-          "category": "sofa",
-          "cantidad": "1"
-        },
-        {
-          "title": "cama",
-          "router": "cart",
-          "price": "123233",
-          "img": "cart/4.jpg",
-          "category": "sofa",
-          "cantidad": "1"
-        }
-        
+        "subMEnu": [
         ],
         "clase": "nav-item"
       },
