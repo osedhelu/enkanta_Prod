@@ -840,9 +840,7 @@ text-align: center;
 margin-bottom: 10px;
 }
 .xzoom {
--webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
--moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+
 margin-bottom: 15px;
 }
 .xzoom2 {
@@ -855,8 +853,8 @@ width: 100% !important;
 }
 /* Thumbs */
 .xzoom-gallery2{
-border: 1px solid #cecece;
-margin-left: 5px;
+/*border: 1px solid #cecece;*/
+margin-left: 12px;
 margin-bottom: 10px;
 }
 .xzoom-source,
@@ -886,7 +884,7 @@ background: #fff;
 /* Lens */
 .xzoom-lens {
 border: 1px solid #555;
-box-shadow: -0px -0px 10px rgba(0, 0, 0, 0.50);
+
 cursor: crosshair;
 }
 /* Loading */
@@ -894,10 +892,12 @@ cursor: crosshair;
 background-position: center center;
 background-repeat: no-repeat;
 border-radius: 100%;
-opacity: .7;
 background: url(../images/xloading.gif);
 width: 48px;
 height: 48px;
+}
+.xzoom-source div {
+  background-color: rgb(255 255 255 / 0%) !important;
 }
 /* Additional class that applied to thumb when it is active */
 .xactive {
@@ -923,6 +923,17 @@ font-size: 0.75em;
 font-weight: bold;
 padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
 .scrollmenu {
 /*background-color: #333;*/
 overflow: auto;
