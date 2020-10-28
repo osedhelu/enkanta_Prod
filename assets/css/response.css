@@ -1048,3 +1048,45 @@ transition: opacity .15s ease;
   position: sticky !important;
   top: 64px !important;
 }
+
+.myInput-btn > a {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0) !important;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.08px;
+  line-height: 1;
+  padding: 17px 35px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 5;
+}
+.myInput-btn {
+  z-index: 0 !important;
+  margin: 0;
+}
+.sidebar-details7 .myInput-btn > a {
+  padding: 17px 16px;
+}
+
+.btn-hover-blanco::before {
+  background: #333 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scaleX(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+  z-index: -1;
+}
+
+.myInput-btn > a:hover::before {
+  transform: scaleX(1);
+}
+.btn-hover-blanco:hover {
+  color: #fff !important;
+}
