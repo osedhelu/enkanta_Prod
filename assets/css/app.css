@@ -24892,24 +24892,23 @@ input[type=range].no-border {
 .white-skin .side-nav .search-form input[type=text] {
   color: #424242 !important
 }
-/*
+
 @font-face {
   font-family: 'Helvetica Neue';
   src: local('Helvetica Neue'),
-    url('../font/Helvetica-Font/HelveticaNeueLTPro-Blk.otf') format('truetype');
+    url('../font/Helvetica-Font/HelveticaNeueLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-strecht: condensed;
   unicode-range: "U+0-10FFFF";
 }
 
-*/
 
 
 
 
 
-/*
+
 
 
 @font-face {
@@ -24923,15 +24922,7 @@ input[type=range].no-border {
   }
 
 
-@font-face {
-  font-family: 'Helvetica_Neue_ultralight';
-  src: local('Helvetica_Neue_ultralight'),
-    url('../font/Helvetica-Font/HelveticaNeueLTPro-UltLt.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-strecht: condensed;
-  unicode-range: "U+0-10FFFF";
-}
+
 
 
 @font-face {
@@ -24999,7 +24990,7 @@ input[type=range].no-border {
   font-strecht: condensed;
   unicode-range: "U+0-10FFFF";
 }
-*/
+
 
 .header-search-form {
 	width: 100%;
