@@ -9138,7 +9138,7 @@ table.table a.btn.btn-primary {
 .btn-outline-primary {
   color: #3a3a3a !important;
   background-color: transparent !important;
-  border: 2px solid #3a3a3a !important
+  border: 1px solid #3a3a3a !important
 }
 
 .btn-outline-primary.active,
