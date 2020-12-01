@@ -1145,8 +1145,51 @@ margin-left: 12px;
 margin-bottom: 10px;
 }
 .no_active {
-  filter: blur(2px);
+  opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    position: relative;
 }
+
+.xzoom-gallery1{
+  border: 1px solid #cecece;
+  padding: 2px;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.xzoom-gallery1:hover{
+  border: 1px solid #090909;
+}
+
+.not_available{
+  content: "";
+  position: absolute;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  top: 8px;
+  left: 9px;
+  width: 115%;
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-top: 1.5px solid #211e22;
+}
+
+.btn-size {
+  color: #3a3a3a !important;
+  background-color: transparent !important;
+  border: 1px solid #3a3a3a !important
+}
+
+.btn-size.active,
+.btn-size:active,
+.btn-size:active:focus,
+.btn-size:focus,
+.btn-size:hover {
+  color: #3a3a3a !important;
+  background-color: transparent !important;
+  border-color: #3a3a3a !important
+}
+
 .xzoom-source,
 .xzoom-hidden {
     display: block !important;
