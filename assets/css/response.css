@@ -79,7 +79,7 @@
     border: 1px solid #dcdcdc !important;
     overflow: hidden !important;
     padding: 0px 0 0px 0px !important;
-    width: 77px !important;
+    width: 77px !important  ;
 }
   .quickview-btn-cart > a {
     background-color: #3a3a3a;
@@ -1767,3 +1767,4 @@ transition: opacity .15s ease;
   padding: 0;
   background: #7fff0000;
 }
+
