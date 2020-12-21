@@ -3,24 +3,22 @@ function readerMenu() {
   setTimeout(() => {
       // Add minus icon for collapse element which is open by default
     $(".collapse.show").each(function(){
-        $(this).prev(".card-header-my").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+        $(this).prev(".card-header-my").find(".fas").addClass("fa-angle-up").removeClass("fa-angle-down");
     });
     
     // Toggle plus minus icon on show hide of collapse element
     $(".collapse").on('show.bs.collapse', function(){
       // console.log(this)
 
-        $(this).prev(".card-header-my").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+        $(this).prev(".card-header-my").find(".fas").removeClass("fa-angle-down").addClass("fa-angle-up");
     }).on('hide.bs.collapse', function(){
-        $(this).prev(".card-header-my").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+        $(this).prev(".card-header-my").find(".fas").removeClass("fa-angle-up").addClass("fa-angle-down");
     });
   }, 2500)
   // console.log("_absdk")
    
 }
 function xzoom() {
-    initXzoom();
-
        (function ($) {
        $(document).ready(function() {
            $('.xzoom2').xzoom({position: '#xzoom2-id', tint: '#6c757d'});
@@ -64,7 +62,7 @@ function xzoom() {
            }
        });
    })(jQuery);
-   
+   console.log('holaa')
 }
 
 function imageZoom(imgID, resultID) {
