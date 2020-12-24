@@ -104,18 +104,7 @@
   }
 
 
-  .img-zoom-container .img-zoom-result {
-    width: 950px !important;
-    height: 750px !important;
-    background-repeat: no-repeat;
-    margin-left: 100px;
-    z-index: 999;
-    position: absolute;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    top: 0;
-    left: 100%;
-  }
+ 
 }
 
 
@@ -353,7 +342,7 @@
   }
 
   .myInput-btn>a {
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
     color: rgb(82, 82, 82) !important;
     display: inline-block;
     font-weight: 100;
@@ -485,7 +474,7 @@
   }
 
   .myInput-btn>a {
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
     color: rgb(82, 82, 82) !important;
     display: inline-block;
     font-weight: 100;
@@ -648,7 +637,7 @@
   }
 
   .myInput-btn>a {
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
     color: rgb(82, 82, 82) !important;
     display: inline-block;
     font-weight: 100;
@@ -740,9 +729,11 @@
     border: 1px solid #dcdcdc !important;
     overflow: hidden !important;
     padding: 0px 0 0px 0px !important;
-    width: 77px !important;
+      width: 83px !important;
   }
-
+  .quickview-plus-minus>.cart-plus-minus {
+    padding-top: .8rem !important;
+  }
   .quickview-btn-cart>a {
     background-color: #3a3a3a;
     color: #fff !important;
@@ -757,7 +748,7 @@
   }
 
   .myInput-btn>a {
-    background-color: #f2f2f2;
+    background-color: #f5f5f5;
     color: rgb(82, 82, 82) !important;
     display: inline-block;
     font-weight: 100;
@@ -1180,23 +1171,25 @@
       background-color: #3a3a3a;
       color: #fff !important;
       display: inline-block;
+      font-size: .7rem;
       font-weight: 600;
-      letter-spacing: 0.08px;
+      letter-spacing: 0.5px;
       line-height: 1;
-      padding: 17px 35px;
+      padding: .8rem 2rem;
       position: relative;
       text-transform: uppercase;
       z-index: 5;
     }
   
     .myInput-btn>a {
-      background-color: #fff9f9;
+      background-color: #f5f5f5;
       color: #3a3a3a !important;
       display: inline-block;
+      font-size: .7rem;
       font-weight: 600;
-      letter-spacing: 0.08px;
+      letter-spacing: 0.5px;
       line-height: 1;
-      padding: 17px 35px;
+      padding: .8rem 2rem;
       position: relative;
       text-transform: uppercase;
       z-index: 5;
@@ -1216,18 +1209,7 @@
       width: 432px !important;
     }
   
-    .img-zoom-container .img-zoom-result {
-      width: 100% !important;
-      height: 600px !important;
-      background-repeat: no-repeat;
-      margin-left: 0;
-      z-index: 999;
-      position: absolute;
-      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      top: 0;
-      left: 100%;
-    }
+   
   
    
   
@@ -1360,7 +1342,7 @@
   }
 
   .myInput-btn>a {
-    background-color: #fff9f9;
+    background-color: #f5f5f5;
     color: #3a3a3a !important;
     display: inline-block;
     font-weight: 600;
@@ -1442,18 +1424,7 @@
     max-width: 100%;
   }
 
-  .img-zoom-container .img-zoom-result {
-    width: 700px !important;
-    height: 700px !important;
-    background-repeat: no-repeat;
-    margin-left: 100px;
-    z-index: 999;
-    position: absolute;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    top: 0;
-    left: 100%;
-  }
+
 
     .quickview-plus-minus {
       display: flex;
@@ -1465,23 +1436,25 @@
       background-color: #3a3a3a;
       color: #fff !important;
       display: inline-block;
-      font-weight: 600;
-      letter-spacing: 0.08px;
+      font-size: .9rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
       line-height: 1;
-      padding: 17px 35px;
+      padding: .8rem 4rem;
       position: relative;
       text-transform: uppercase;
       z-index: 5;
     }
   
     .myInput-btn>a {
-      background-color: #fff9f9;
+      background-color: #f5f5f5;
       color: #3a3a3a !important;
       display: inline-block;
-      font-weight: 600;
-      letter-spacing: 0.08px;
+      font-size: .9rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
       line-height: 1;
-      padding: 17px 35px;
+      padding: .8rem 4rem;
       position: relative;
       text-transform: uppercase;
       z-index: 5;
@@ -1566,18 +1539,6 @@
       max-width: 100%;
     }
   
-    .img-zoom-container .img-zoom-result {
-      width: 700px !important;
-      height: 700px !important;
-      background-repeat: no-repeat;
-      margin-left: 100px;
-      z-index: 999;
-      position: absolute;
-      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      top: 0;
-      left: 100%;
-    }
   
   
   }
@@ -1601,23 +1562,25 @@
       background-color: #3a3a3a;
       color: #fff !important;
       display: inline-block;
-      font-weight: 600;
-      letter-spacing: 0.08px;
+      font-size: .9rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
       line-height: 1;
-      padding: 17px 35px;
+      padding: .8rem 4rem;
       position: relative;
       text-transform: uppercase;
       z-index: 5;
     }
   
     .myInput-btn>a {
-      background-color: #fff9f9;
+      background-color: #f5f5f5;
       color: #3a3a3a !important;
       display: inline-block;
-      font-weight: 600;
-      letter-spacing: 0.08px;
+      font-size: .9rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
       line-height: 1;
-      padding: 17px 35px;
+      padding: .8rem 4rem;
       position: relative;
       text-transform: uppercase;
       z-index: 5;
@@ -1707,18 +1670,7 @@
     }
   
   
-    .img-zoom-container .img-zoom-result {
-      width: 950px !important;
-      height: 750px !important;
-      background-repeat: no-repeat;
-      margin-left: 100px;
-      z-index: 999;
-      position: absolute;
-      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-      top: 0;
-      left: 100%;
-    }
+   
   }
   
   
@@ -1753,7 +1705,7 @@
   }
   
   .shopping-cart {
-    background: #f6f6f6;
+    /* background: #f6f6f6; */
     padding: 50px 0;
   }
   
@@ -2061,7 +2013,14 @@
     width: 100%;
     height: 100%;
   }
-  
+  .cart-sub h6 {
+    font-size: .8rem;
+  }
+
+  .cart-price h4 {
+    font-size: .8rem;
+  }
+
   .position-index {
     z-index: 998 !important;
   }
@@ -2904,7 +2863,7 @@
 }
 
 .shopping-cart {
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
   padding: 50px 0;
 }
 
@@ -4058,3 +4017,7 @@ a .active {
   background-color: transparent !important;
   /* border: #757575 !important */
 }
+.my_producto_zoom > .img-zoom-container{
+  position: static !important;
+}
+
