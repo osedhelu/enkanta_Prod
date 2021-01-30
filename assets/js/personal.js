@@ -3,16 +3,16 @@ function readerMenu() {
   setTimeout(() => {
       // Add minus icon for collapse element which is open by default
     $(".collapse.show").each(function(){
-        $(this).prev(".card-header-my").find(".fas").addClass("fa-angle-up").removeClass("fa-angle-down");
+        $(this).prev(".card-header-my").find(".fa").addClass("fa-angle-up").removeClass("fa-angle-down");
     });
     
     // Toggle plus minus icon on show hide of collapse element
     $(".collapse").on('show.bs.collapse', function(){
       // console.log(this)
 
-        $(this).prev(".card-header-my").find(".fas").removeClass("fa-angle-down").addClass("fa-angle-up");
+        $(this).prev(".card-header-my").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-up");
     }).on('hide.bs.collapse', function(){
-        $(this).prev(".card-header-my").find(".fas").removeClass("fa-angle-up").addClass("fa-angle-down");
+        $(this).prev(".card-header-my").find(".fa").removeClass("fa-angle-up").addClass("fa-angle-down");
     });
   }, 2500)
   // console.log("_absdk")
